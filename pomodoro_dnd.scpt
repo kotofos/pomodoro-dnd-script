@@ -40,11 +40,13 @@ on kill_app(app_name)
 	end tell
 end kill_app
 
+-- Your apps goes here
 kill_app("Telegram")
 kill_app("Mail")
 
 enable_dnd()
 
+-- 25 minutes session lenght
 delay 25 * 60
 
 disable_dnd()
